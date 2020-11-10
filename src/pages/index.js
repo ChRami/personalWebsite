@@ -1,17 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+//import Image from "../components/image"
+//import SEO from "../components/seo"
 
 const IndexPage = () => {
   return(
     <Layout>
       <div>
         <h1>Hello World!</h1>
-        <p>Contact me:
-          Here is my github <a href="https://github.com/ChRami" target="_blank">GitHub</a>
+        <p>Contact me: <br/>
+          Here is my github <a href="https://github.com/ChRami" target="_blank" rel="noopener noreferrer">GitHub</a>
         </p>
       </div>
     </Layout>
